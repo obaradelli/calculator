@@ -29,7 +29,7 @@ export const DivGeral = styled.div`
   }
 
   .visor {
-    height: 75px;
+    height: 100px;
     width: 100%;
 
     display: flex;
