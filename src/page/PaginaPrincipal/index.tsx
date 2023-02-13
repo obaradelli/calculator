@@ -65,8 +65,14 @@ export function Calculadora() {
     }
   }
 
+  function clear() {
+    setpreNumber1("");
+    setpreNumber2("");
+    setOperador("");
+  }
+
   function saveAndCalulate() {
-    calculate(number1, Number(preNumber2), operador);
+    calculate(number1, Number(preNumber2), operador), clear();
   }
 
   return (
